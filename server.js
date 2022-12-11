@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
-// app.use('/api', notesApi);
+
 
 app.use(express.static('public'));
 
@@ -33,12 +33,12 @@ app.get('*', (req, res) =>
 // POST request to add a review
 app.post('/api/notes', (req, res) => {
   // Log that a POST request was received
-  console.info(`${req.method} request received to add a review`);
+  console.info(`${req.method} request received to add a note`);
   // Prepare a response object to send back to the client
   let response;
 
   // Check if there is anything in the response body
-  if (req.body && req.body.product) {
+  if (req.body) {
     response = {
       status: 'success',
       data: req.body,
