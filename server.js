@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 
-const api = require('./routes/notes.js');
+const api = require('./routes/index.js');
 // const notesApi = require('./routes/notes.js');
 
 const PORT = process.env.PORT || 3001;
@@ -12,6 +12,7 @@ const app = express();
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+// http://localhost:3001/api
 app.use('/api', api);
 
 
@@ -30,27 +31,47 @@ app.get('*', (req, res) =>
 
 
 
-// POST request to add a review
-app.post('/api/notes', (req, res) => {
-  // Log that a POST request was received
-  console.info(`${req.method} request received to add a note`);
-  // Prepare a response object to send back to the client
-  let response;
 
-  // Check if there is anything in the response body
-  if (req.body) {
-    response = {
-      status: 'success',
-      data: req.body,
-    };
-    res.status(201).json(response);
-  } else {
-    res.status(400).json('Request body must at least contain a note name');
-  }
 
-  // Log the response body to the console
-  console.log(req.body);
-});
+
+
+
+// // POST Route for submitting feedback
+// app.post('/api/notes', (req, res) => {
+//   // Log that a POST request was received
+//   console.info(`${req.method} request received to submit feedback`);
+
+//   // Destructuring assignment for the items in req.body
+//   const { noteTitle, noteText } = req.body;
+
+//   // If all the required properties are present
+//   if (noteTitle && noteText) {
+//     // Variable for the object we will save
+//     const newNote = {
+//       noteTitle,
+//       noteText,
+//       note_id: uuid(),
+//     };
+
+//     readAndAppend(newNote, './db/db.json');
+
+//     const response = {
+//       status: 'success',
+//       body: newFeedback,
+//     };
+
+//     res.json(response);
+//   } else {
+//     res.json('Error in posting feedback');
+//   }
+// });
+
+
+
+
+
+
+
 
 
 
