@@ -21,16 +21,16 @@ Link to application: https://drive.google.com/file/d/1nTql6j8v9ov0MurceNV8lzc9yb
 7.) <a href = "#Questions">Questions</a>
 
 ## <section id = "Installation">Installation</section>
-Command to Install Dependencies: npm i
+Command to Install Dependencies: npm i, npm i express
 
 ## <section id = "Usage">Usage</section>
-Using the Repo: The README Generator only generates content listed in the Table of Contents. 
+Using the Repo: N/A 
 
 ## <section id = "Contributing">Contributing</section>
 Contributing to the Repo: Currently not taking contributions.
 
 ## <section id = "Tests">Tests</section>
-Command to Run Tests: npm test
+Command to Run Tests: N/A
 
 ## <section id = "Questions">Questions</section>
 If you have any questions, please feel free to contact me: <br><br>
