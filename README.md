@@ -9,7 +9,7 @@ This project was made using express and node.js, which allows users to create an
 ![Note Taker](./image/image1.png)
 ![Note Taker](./image/image2.png)
 
-Link to application: https://drive.google.com/file/d/1nTql6j8v9ov0MurceNV8lzc9ybklxvvY/view
+Link to application: 
 
 ## Table of Contents
 1.) <a href = "#License">License</a><br>
