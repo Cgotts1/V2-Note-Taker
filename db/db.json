@@ -1,12 +1,27 @@
 [
     {
-        "title": "Note sample",
-        "text": "Text sample\n",
-        "id": "3f18"
+        "title": "This is the first note",
+        "text": "Note 1",
+        "id": "83b9"
     },
     {
-        "title": "This is the second note",
-        "text": "Second note",
-        "id": "311b"
+        "title": "Note 2",
+        "text": "2 note",
+        "id": "e549"
+    },
+    {
+        "title": "Third note",
+        "text": "3",
+        "id": "c697"
+    },
+    {
+        "title": "This is the fourth note",
+        "text": "Yup, 4th note",
+        "id": "3218"
+    },
+    {
+        "title": "This is the fifth note",
+        "text": "Currently writing the 5th note",
+        "id": "0ff6"
     }
 ]
