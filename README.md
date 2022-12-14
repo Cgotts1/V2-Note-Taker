@@ -9,7 +9,10 @@ This project was made using express and node.js, which allows users to create an
 ![Note Taker](./image/image1.png)
 ![Note Taker](./image/image2.png)
 
-Link to application: 
+Link to heroku application: https://v2-note-taker.herokuapp.com/
+
+Link to github application: https://cgotts1.github.io/V2-Note-Taker/
+
 
 ## Table of Contents
 1.) <a href = "#License">License</a><br>
